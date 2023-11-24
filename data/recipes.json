@@ -16,8 +16,7 @@
         "ingredients": [
             { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
             { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
-            { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
-            { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
+            { "name": "banan", "baseAmount": 2, "unit": "enhet" }
         ],
         "instructions": "..."
     },
@@ -25,11 +24,9 @@
         "recipeName": "Tiramisu",
         "portions": 1,
         "ingredients": [
-            { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
+            { "name": "kaffe", "baseAmount": 1, "unit": "msk" },
             { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
-            { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
-            { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
-        ],
+            { "name": "grädde", "baseAmount": 2, "unit": "dl" }        ],
         "instructions": "..."
     },
     "kanelbullar" :{
@@ -38,9 +35,7 @@
         "ingredients": [
             { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
             { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
-            { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
-            { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
-        ],
+            { "name": "Kanel", "baseAmount": 2, "unit": "tsk" }        ],
         "instructions": "..."
     },
     "lemon" :{
@@ -49,9 +44,7 @@
         "ingredients": [
             { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
             { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
-            { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
-            { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
-        ],
+            { "name": "Citronjuice", "baseAmount": 1, "unit": "msk" }        ],
         "instructions": "..."
     }
 }
