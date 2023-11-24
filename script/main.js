@@ -38,5 +38,6 @@ updatePortionsBtn.addEventListener('click', function(){
     //sparar värdet av portions
     numberOfPortions = portionCount.value;
     console.log(numberOfPortions);
+    
     calculatePortions(numberOfPortions);
 })

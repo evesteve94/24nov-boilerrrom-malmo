@@ -8,7 +8,7 @@
             { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
             { "name": "Kakao", "baseAmount": 2, "unit": "msk" }
         ],
-        "instructions": "Blanda alla ingredienser och grädda i 175 grader i 20 minuter."
+        "instructions": "Blanda alla ingredienser, kör i mixern i 75 minuter och grädda i 175 grader i 20 minuter."
     },
     "banankaka" :{
         "recipeName": "Banankaka",
@@ -18,7 +18,7 @@
             { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
             { "name": "banan", "baseAmount": 2, "unit": "enhet" }
         ],
-        "instructions": "..."
+        "instructions": "Blanda alla ingredienser, kör i mixern i 75 minuter och grädda i 450 grader i 90 minuter."
     },
     "tiramisu" :{
         "recipeName": "Tiramisu",
@@ -27,7 +27,7 @@
             { "name": "kaffe", "baseAmount": 1, "unit": "msk" },
             { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
             { "name": "grädde", "baseAmount": 2, "unit": "dl" }        ],
-        "instructions": "..."
+        "instructions": "Blanda alla ingredienser, kör i mixern i 60 minuter och grädda i 12 grader i 20 timmar."
     },
     "kanelbullar" :{
         "recipeName": "Kanelbullar",
@@ -36,7 +36,7 @@
             { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
             { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
             { "name": "Kanel", "baseAmount": 2, "unit": "tsk" }        ],
-        "instructions": "..."
+        "instructions": "Blanda alla ingredienser, kör i mixern i 75 minuter och grädda i flytande kväve 200 minuter."
     },
     "lemon" :{
         "recipeName": "Lemon Cake",
@@ -45,7 +45,7 @@
             { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
             { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
             { "name": "Citronjuice", "baseAmount": 1, "unit": "msk" }        ],
-        "instructions": "..."
+        "instructions": "Blanda alla ingredienser, kör i mixern i en timme och grädda i frysen i en vecka."
     }
 }
 
