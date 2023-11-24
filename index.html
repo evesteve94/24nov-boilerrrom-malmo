@@ -8,11 +8,11 @@
 
 <body>
   <h1>Välkommen till Receptsamlingen!</h1>
-  <button id="chokladkaka-btn">Kladdkaka Deluxxxxxxxe (sexy time) </button>
-  <button id="banankaka-btn">Banankaka, afternoon delight</button>
-  <button id="tiramisu-btn">Shake your booty tiramisu (it's mixed baby)</button>
-  <button id="kanelbullar-btn">THICC AF Kanelbullar</button>
-  <button id="lemon-btn">Lebba-lemon-kaga</button>
+  <button class="kladdkaka" id="chokladkaka-btn">Kladdkaka Deluxxxxxxxe (sexy time) </button>
+  <button class="banankaka" id="banankaka-btn">Banankaka, afternoon delight</button>
+  <button class="tiramisu" id="tiramisu-btn">Shake your booty tiramisu (it's mixed baby)</button>
+  <button class="kanelbullar" id="kanelbullar-btn">THICC AF Kanelbullar</button>
+  <button class="lemon" id="lemon-btn">Lebba-lemon-kaga</button>
   <!-- Lägg eventuellt till fler knappar för andra recept här -->
 
   <p><strong>Portioner:</strong> <input type="number" id="portion-count" value="1" min="1"></p>
@@ -20,7 +20,9 @@
 
   <div id="recipe-container"></div>
 
-  <script src="./script/main.js"></script>
+    <script src="./script/getrecipe.js"></script>
+    <script src="./script/main.js"></script>
+
 </body>
 
 </html>
