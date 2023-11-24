@@ -6,6 +6,7 @@ const kanelbullarBtn = document.getElementById('kanelbullar-btn');
 const lemonBtn = document.getElementById('lemon-btn');
 
 const portionCount = document.getElementById('portion-count');
+let numberOfPortions = 0;
 const updatePortionsBtn = document.getElementById('update-portions');
 
 const recipeContainer = document.getElementById('recipe-container');
@@ -34,7 +35,8 @@ lemonBtn.addEventListener('click', function() {
 
 //eventListener till portioner
 updatePortionsBtn.addEventListener('click', function(){
-    //tömmer först diven för att sen lägga till receptet
-    //recipeContainer.innerHTML = '';
-    //uppdateras recpetet
+    //sparar värdet av portions
+    numberOfPortions = portionCount.value;
+    console.log(numberOfPortions);
+    calculatePortions(numberOfPortions);
 })

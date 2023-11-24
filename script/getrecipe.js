@@ -12,8 +12,11 @@ async function getRecipe(string){
         recipeContainer.innerHTML = '';
         if(string == 'kladdkaka'){
             //loopa ingredients
+            // Ge ingrediensmängderna unika ids
+            let i = 1;
             recipes.kladdkaka.ingredients.forEach(function(item){
-                ingString +=` <p>${item.baseAmount} ${item.unit} ${item.name} </p>`;
+                ingString += `<p><span id="${i}">${item.baseAmount}</span> ${item.unit} ${item.name} </p>`;
+                i++;
             });
 
             //fyller vår container
