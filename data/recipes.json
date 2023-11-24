@@ -1,58 +1,58 @@
 
-[
-    {
-    "recipeName": "Kladdkaka",
-    "portions": 1,
-    "ingredients": [
-        { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
-        { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
-        { "name": "Kakao", "baseAmount": 2, "unit": "msk" }
-    ],
-    "instructions": "Blanda alla ingredienser och grädda i 175 grader i 20 minuter."
-},
 {
-    "recipeName": "Banankaka",
-    "portions": 1,
-    "ingredients": [
-        { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
-        { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
-        { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
-        { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
-    ],
-    "instructions": "..."
-},
-{
-    "recipeName": "Tiramisu",
-    "portions": 1,
-    "ingredients": [
-        { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
-        { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
-        { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
-        { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
-    ],
-    "instructions": "..."
-},
-{
-    "recipeName": "Kanelbullar",
-    "portions": 1,
-    "ingredients": [
-        { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
-        { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
-        { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
-        { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
-    ],
-    "instructions": "..."
-},
-{
-    "recipeName": "Lemon Cake",
-    "portions": 1,
-    "ingredients": [
-        { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
-        { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
-        { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
-        { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
-    ],
-    "instructions": "..."
+    "kladdkaka" :{
+        "recipeName": "Kladdkaka",
+        "portions": 1,
+        "ingredients": [
+            { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
+            { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
+            { "name": "Kakao", "baseAmount": 2, "unit": "msk" }
+        ],
+        "instructions": "Blanda alla ingredienser och grädda i 175 grader i 20 minuter."
+    },
+    "banankaka" :{
+        "recipeName": "Banankaka",
+        "portions": 1,
+        "ingredients": [
+            { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
+            { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
+            { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
+            { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
+        ],
+        "instructions": "..."
+    },
+    "tiramisu" :{
+        "recipeName": "Tiramisu",
+        "portions": 1,
+        "ingredients": [
+            { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
+            { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
+            { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
+            { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
+        ],
+        "instructions": "..."
+    },
+    "kanelbullar" :{
+        "recipeName": "Kanelbullar",
+        "portions": 1,
+        "ingredients": [
+            { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
+            { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
+            { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
+            { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
+        ],
+        "instructions": "..."
+    },
+    "lemon" :{
+        "recipeName": "Lemon Cake",
+        "portions": 1,
+        "ingredients": [
+            { "name": "Mjöl", "baseAmount": 1, "unit": "kopp" },
+            { "name": "Socker", "baseAmount": 0.5, "unit": "kopp" },
+            { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
+            { "name": "Banan", "baseAmount": 0.5, "unit": "kopp" }
+        ],
+        "instructions": "..."
+    }
 }
 
-]

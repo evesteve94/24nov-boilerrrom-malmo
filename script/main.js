@@ -10,12 +10,25 @@ const updatePortionsBtn = document.getElementById('update-portions');
 
 const recipeContainer = document.getElementById('recipe-container');
 
+let textRecipe = document.createElement('p');
+
 //eventListener för varje knapp
-kladdkakaBtn.addEventListener('click', getRecipe);
-bananBtn.addEventListener('click', getRecipe);
-tiramisuBtn.addEventListener('click', getRecipe);
-kanelbullarBtn.addEventListener('click', getRecipe);
-lemonBtn.addEventListener('click', getRecipe);
+kladdkakaBtn.addEventListener('click', function() {
+    getRecipe('kladdkaka');
+});
+
+bananBtn.addEventListener('click', function() {
+    getRecipe('banankaka');
+});
+tiramisuBtn.addEventListener('click', function() {
+    getRecipe('tiramisu');
+});
+kanelbullarBtn.addEventListener('click', function() {
+    getRecipe('kanelbullar');
+});
+lemonBtn.addEventListener('click', function() {
+    getRecipe('lemon');
+});
 
 //hämta värdet av portioner
 
